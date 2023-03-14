@@ -1,0 +1,13 @@
+<?php
+ 
+ $a = fgets(STDIN);
+ $b = fgets(STDIN);
+ 
+  
+ $x =  ($a * 3.5 + $b * 7.5)/(3.5+7.5);
+ 
+  $x =  number_format($x, 5, ".", "");
+ 
+ echo "MEDIA = $x\n";
+
+?>
