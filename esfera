@@ -1,0 +1,15 @@
+<?php
+ 
+
+ $r = fgets(STDIN);
+
+  
+ $x = 4.0/3 * 3.14159 * $r * $r * $r;
+ 
+ 
+ 
+  $x =  number_format($x, 3, ".", "");
+
+ echo "VOLUME = $x\n";
+ 
+?>
