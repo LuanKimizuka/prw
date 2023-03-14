@@ -1,0 +1,16 @@
+<?php
+
+    $d = readline();
+
+    $a = $d / 365;
+    $d = $d % 365;
+    $m = $d / 30;
+    $d = $d % 30;
+
+
+
+    echo intval($a). " ano(s)\n";
+    echo intval($m) ." mes(es)\n";
+    echo $d ." dia(s)\n";
+    
+?>
