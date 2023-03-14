@@ -1,0 +1,21 @@
+<?php
+
+    $x = readline(); 
+    $x = explode(' ',$x);
+    $y = readline(); 
+    $y = explode(' ',$y);
+    
+    
+    $x1 = (double)$x[0];
+    $y1 = (double)$x[1];
+    $x2 = (double)$y[0];
+    $y2 = (double)$y[1];
+    
+
+    $d = sqrt((($x2 - $x1) * ($x2 - $x1)) + (($y2 - $y1) * ($y2 - $y1)));
+  
+    
+    $d = number_format($d, 4, ".","");
+    echo "$d\n";
+
+?>
