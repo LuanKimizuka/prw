@@ -1,0 +1,16 @@
+<?php
+ 
+
+ $a = explode (' ', fgets (STDIN));
+ $b = explode (' ', fgets(STDIN));
+
+  
+ $x = $a [1] * $a [2] + $b [1] * $b [2];
+ 
+  $x =  number_format($x, 2, ".", "");
+
+ 
+ echo "VALOR A PAGAR: R$ $x\n";
+
+ 
+?>
