@@ -1,0 +1,13 @@
+<?php
+ 
+ $a = fgets(STDIN);
+ $b = fgets(STDIN);
+ $c = fgets(STDIN);
+  
+ $x =  ($a * 2 + $b * 3 + $c * 5)/(2+3+5);
+ 
+  $x =  number_format($x, 1, ".", "");
+ 
+ echo "MEDIA = $x\n";
+
+?>
