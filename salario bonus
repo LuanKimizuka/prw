@@ -1,0 +1,16 @@
+<?php
+ 
+
+ $a = fgets(STDIN);
+ $b = fgets(STDIN);
+ $c = fgets(STDIN);
+  
+ $x = $b + $c * 0.15 ;
+ 
+  $x =  number_format($x, 2, ".", "");
+
+ 
+ echo "TOTAL = R$ $x\n";
+
+ 
+?>
