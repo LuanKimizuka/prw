@@ -1,0 +1,14 @@
+<?php
+
+$h = readline();
+$v = readline();
+
+
+$d = $h * $v;
+$l = $d / 12;
+
+
+$l = number_format($l, 3, ".","");
+echo "$l\n";
+
+?>
