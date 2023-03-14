@@ -1,0 +1,29 @@
+<?php
+ 
+
+ $x = explode (' ', fgets (STDIN));
+ $a = (double) $x[0];
+ $b = (double) $x[1];
+ $c = (double) $x[2];
+
+  $t = ($a * $c) / 2;
+  $ci = $c * $c * 3.14159;
+  $tr = (($a + $b) * $c) / 2; 
+  $q = $b * $b;
+  $r = $a * $b;
+
+ 
+$t =  number_format($t, 3, ".", "");
+$ci =  number_format($ci, 3, ".", "");
+$tr =  number_format($tr, 3, ".", "");
+$q =  number_format($q, 3, ".", "");
+$r =  number_format($r, 3, ".", "");
+ 
+  echo "TRIANGULO: $t\n";
+  echo "CIRCULO: $ci\n";
+  echo "TRAPEZIO: $tr\n";
+  echo "QUADRADO: $q\n";
+  echo "RETANGULO: $r\n";
+      
+ 
+?>
