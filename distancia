@@ -1,0 +1,9 @@
+<?php
+
+
+$km = fgets(STDIN);
+$x = $km *2;
+
+
+echo "$x minutos\n";
+?>
